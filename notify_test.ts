@@ -1,8 +1,8 @@
-import { delay } from "https://deno.land/std@0.186.0/async/delay.ts";
+import { delay } from "https://deno.land/std@0.211.0/async/delay.ts";
 import {
   assertEquals,
   assertRejects,
-} from "https://deno.land/std@0.186.0/testing/asserts.ts";
+} from "https://deno.land/std@0.211.0/testing/asserts.ts";
 import { promiseState } from "./state.ts";
 import { Notify } from "./notify.ts";
 

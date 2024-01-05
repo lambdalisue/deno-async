@@ -1,7 +1,7 @@
 import {
   Deferred,
   deferred,
-} from "https://deno.land/std@0.186.0/async/deferred.ts";
+} from "https://deno.land/std@0.211.0/async/deferred.ts";
 
 export type WaitOptions = {
   signal?: AbortSignal;
@@ -11,7 +11,7 @@ export type WaitOptions = {
  * Async notifier that allows one or more "waiters" to wait for a notification.
  *
  * ```ts
- * import { assertEquals } from "https://deno.land/std@0.186.0/testing/asserts.ts";
+ * import { assertEquals } from "https://deno.land/std@0.211.0/testing/asserts.ts";
  * import { promiseState } from "./state.ts";
  * import { Notify } from "./notify.ts";
  *

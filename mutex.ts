@@ -1,7 +1,7 @@
 import {
   Deferred,
   deferred,
-} from "https://deno.land/std@0.186.0/async/deferred.ts";
+} from "https://deno.land/std@0.211.0/async/deferred.ts";
 
 /**
  * A mutex (mutual exclusion) is a synchronization primitive that grants

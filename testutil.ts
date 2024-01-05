@@ -2,7 +2,7 @@
  * A class that wraps a value and allows it to be set asynchronously.
  *
  * ```ts
- * import { assertEquals } from "https://deno.land/std@0.186.0/testing/asserts.ts";
+ * import { assertEquals } from "https://deno.land/std@0.211.0/testing/asserts.ts";
  * import { AsyncValue } from "./testutil.ts";
  *
  * const v = new AsyncValue(0);
